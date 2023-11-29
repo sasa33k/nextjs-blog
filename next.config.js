@@ -2,10 +2,21 @@
 const nextConfig = {
 
     output: 'export',
+
     reactStrictMode: true,
+    swcMinify: true,
+    images: {
+      unoptimized: true,
+    },
+
+  //   reactStrictMode: true,
   
-   // Add basePath
-    basePath: '/nextjs-blog',
+    // images: {
+    //   loader: 'akamai',
+    //   path: '',
+    // },
+  //  // Add basePath
+  //   basePath: '/nextjs-blog',
   
   }
   
