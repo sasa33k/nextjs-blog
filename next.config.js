@@ -2,7 +2,7 @@
 const nextConfig = {
 
     output: 'export',
-
+    basePath: '/nextjs-blog',
     reactStrictMode: true,
     swcMinify: true,
     images: {
