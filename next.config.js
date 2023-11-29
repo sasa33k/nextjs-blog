@@ -2,7 +2,7 @@
 const nextConfig = {
    // Add basePath
     basePath: '/nextjs-blog',
-    output: 'standalone',
+    output: 'export',
   
   }
   
