@@ -3,19 +3,16 @@ const nextConfig = {
 
     output: 'export',
     reactStrictMode: true,
-    assetPrefix: "/nextjs-blog",
     images: {
       loader: 'custom',
       loaderFile: './img-loader.js',
-        remotePatterns: [
+      remotePatterns: [
             {
                 protocol: "https",
                 hostname: "sasa33k.github.io",
             },
-        ],
+      ],
     },
-
-  
   } 
   
   module.exports = nextConfig
