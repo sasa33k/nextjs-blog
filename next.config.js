@@ -7,7 +7,12 @@ const nextConfig = {
     swcMinify: true,
     images: {
       unoptimized: true,
-      path:`${basePath}/public/images`,
+        remotePatterns: [
+          {
+            protocol: 'https',
+            hostname: 'sasa33k.github.io/',
+          },
+        ],
     },
 
   //   reactStrictMode: true,
