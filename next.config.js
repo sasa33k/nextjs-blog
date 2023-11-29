@@ -3,6 +3,7 @@ const nextConfig = {
 
     output: 'export',
     reactStrictMode: true,
+    assetPrefix: !debug ? "/nextjs-blog/" : "",
     images: {
       loader: 'custom',
       loaderFile: './img-loader.js',
