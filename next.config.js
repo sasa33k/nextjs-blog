@@ -7,6 +7,12 @@ const nextConfig = {
     images: {
       loader: 'custom',
       loaderFile: './img-loader.js',
+        remotePatterns: [
+            {
+                protocol: "https",
+                hostname: "sasa33k.github.io",
+            },
+        ],
     },
 
   
